@@ -1,0 +1,300 @@
+*
+{
+	font-family:"Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+}
+body
+{
+	display:flex;
+	margin:0;
+	height:100%;
+}
+nav
+{
+	/* width:5vw; */
+	width:68px;
+	
+	height:100vh;
+	background-color:#eaf1fb;
+	
+}
+.nav_item
+{
+	margin:15px auto 17px auto;
+	width:38px;
+	justify-content:center;
+	display: grid;
+	font-size:12px;
+	text-decoration:none;
+}
+.menu_image
+{
+	margin:8px auto 27px auto;
+	width:47px;
+	height:47px;
+	justify-content:center;
+	display: grid;
+	border-radius:50%;
+}
+.menu_image:hover
+{
+	background-color:#3c404314;
+}
+.menu_image img
+{
+	margin:auto;
+	position:relative;
+	width:18px;
+	height:16px;
+}
+.nav_item span
+{
+	text-align:center;
+	margin-top:3px;
+	color:#666;
+}
+.nav_active span
+{
+	color:#222;
+}
+.nav_image
+{
+	position:relative;
+	margin:auto;
+	width:45px;
+	height:30px;
+	border-radius:20px;
+	transition: background-color 200ms ease-out 100ms;
+	display:grid;
+	justify-content:center;
+}
+.nav_image:hover
+{
+	background-color:#ddd;
+}
+.nav_active .nav_image
+{
+	    background-color: #d3e3fd;
+}
+.nav_image img
+{
+	margin:auto;
+	width:16px;
+}
+.main
+{
+	background-color:#f8fbff;
+	width:95vw;
+	display:flex;
+	flex-direction:column;
+}
+.header_div
+{
+	padding:8px;
+	display:flex;
+}
+.logo
+{
+	margin:auto 14px;
+}
+.search_box
+{
+	padding:8px 6px;
+	background-color:#eaf1fb;
+	border-radius:25px;
+	display:flex;
+	height:5vh;
+	width:100%;
+	max-width:595px;
+	margin:auto auto auto 110px;
+	align-items: center;
+}
+.search_box button
+{
+	background:none;
+	border:none;
+	border-radius:50%;
+	width:40px;
+	height:36px;
+	cursor:pointer;
+}
+.search_box button:hover
+{
+	background-color:#3c404314;	
+}
+.search_button img
+{
+	width:18px;
+	opacity:0.7;
+	position:relative;
+
+}
+.options_button
+{
+	margin-left:auto;
+	margin-right:4px;
+}
+.options_button img
+{
+	width:22px;
+	height:24px;
+	opacity:0.9;
+	position:relative;
+}
+.search_box input
+{
+	background:none;
+	border:none;
+	font-size:16px;
+	width:100%;
+}
+.search_box input:focus
+{
+	outline:none;
+}
+.search_box:focus
+{
+	background-color:#fff;
+}
+.notification_button
+{
+	background-color:#eaf1fb;
+	border:none;
+	margin:0 auto 0 25px;
+	border-radius:25px;
+	width:105px;
+	font-size:14px;
+	display:flex;
+	align-items: center;
+	font-weight:bold;
+	color:#666;
+}
+.notification_button:hover
+{
+	background-color:#dfe8f5;
+}
+.arrow_down
+{
+	margin:0 5px 0 10px;
+	position:relative;
+	top:-4px;
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	border:solid #444;
+	border-width: 0 1px 1px 0;
+	display: inline-block;
+	padding:2px;
+}
+.dot {
+	height: 12px;
+	width: 12px;
+	background-color: #1e8e3e;
+	border-radius: 50%;
+	display: inline-block;
+	margin:0 7px;
+}
+.header_icons
+{
+	background:none;
+	border:none;
+	border-radius:50%;
+	padding:8px 10px;
+	margin:auto;
+}
+.header_icons:hover
+{
+	background-color:#3c404314;
+}
+.header_icons img
+{
+	position:relative;
+	top:1px;
+	width:20px;
+	height:20px;
+	opacity:0.7;
+}
+.profile
+{
+	display:flex;
+	background-color:#fff;
+	border:1px solid #ddd;
+	border-radius:5px;
+	padding:5px ;
+	margin:auto 8px;
+
+}
+.profile img
+{
+	width:80px;
+	margin:auto;
+}	
+.profile b
+{
+	color:#fff;
+	background-color:#7f605a;
+	border-radius:50%;
+	padding:9px 11px;
+	margin-left:10px;
+}
+.profile:hover
+{
+	background:none;
+	border:1px solid #cdf;
+}
+.main_contents
+{
+	display:flex;
+}
+.main_menu
+{
+	margin:9px 12px;
+	width:230px;
+}
+.compose
+{
+	background-color: #c2e7ff;
+	border:none;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	height:55px;
+	width:138px;
+	border-radius:15px;
+	font-size:14px;
+	color:#333;
+	margin-bottom:20px;
+}
+.compose img
+{
+	width:20px;
+}
+.menu_items
+{
+	padding:6px 10px;
+	background:none;
+	border:none;
+	border-radius:20px;
+	font-size:14px;
+	color:#555;
+	display:flex;
+	align-items:center;
+}
+.menu_items:hover:not(.active_menu)
+{
+	background-color:#eee;	
+}
+.active_menu
+{
+	background-color:#d6e5ff;
+	color:#333;
+	font-weight:bold;
+}
+.menu_items img
+{
+	width:16px;
+	margin:0 20px 0 10px;
+	opacity:0.8;
+}
+.active_menu img
+{
+	opacity:0.9;
+}
