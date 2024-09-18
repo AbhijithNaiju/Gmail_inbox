@@ -10,12 +10,9 @@ body
 }
 nav
 {
-	/* width:5vw; */
 	width:68px;
-	
 	height:100vh;
 	background-color:#eaf1fb;
-	
 }
 .nav_item
 {
@@ -34,6 +31,7 @@ nav
 	justify-content:center;
 	display: grid;
 	border-radius:50%;
+	cursor:pointer;
 }
 .menu_image:hover
 {
@@ -95,6 +93,7 @@ nav
 .logo
 {
 	margin:auto 14px;
+	cursor:pointer;
 }
 .search_box
 {
@@ -167,6 +166,7 @@ nav
 	align-items: center;
 	font-weight:bold;
 	color:#666;
+	cursor:pointer;
 }
 .notification_button:hover
 {
@@ -199,6 +199,7 @@ nav
 	border-radius:50%;
 	padding:8px 10px;
 	margin:auto;
+	cursor:pointer;
 }
 .header_icons:hover
 {
@@ -220,6 +221,7 @@ nav
 	border-radius:5px;
 	padding:5px ;
 	margin:auto 8px;
+	cursor:pointer;
 
 }
 .profile img
@@ -261,7 +263,7 @@ nav
 	border-radius:15px;
 	font-size:14px;
 	color:#333;
-	margin-bottom:20px;
+	margin-bottom:16px;
 }
 .compose img
 {
@@ -269,16 +271,29 @@ nav
 }
 .menu_items
 {
-	padding:6px 10px;
-	background:none;
-	border:none;
+	padding:8px 10px;
 	border-radius:20px;
 	font-size:14px;
 	color:#555;
 	display:flex;
 	align-items:center;
+	cursor:pointer;
 }
-.menu_items:hover:not(.active_menu)
+.more_button
+{
+	border-radius:20px;
+	margin:none;
+	padding:6px 6px;
+	cursor:pointer;
+}	
+.more_button button
+{
+	background:none;
+	border:none;
+	color:#555;
+	font-size:14px;
+}
+.menu_items:hover:not(.active_menu),.more_button:hover
 {
 	background-color:#eee;	
 }
@@ -288,13 +303,180 @@ nav
 	color:#333;
 	font-weight:bold;
 }
-.menu_items img
+.menu_items img,.more_button img
 {
-	width:16px;
-	margin:0 20px 0 10px;
+	width:15px;
+	margin:0 19px 0 8px;
 	opacity:0.8;
 }
 .active_menu img
 {
 	opacity:0.9;
+}
+.menu_labels
+{
+	display:flex;
+	font-weight:500;
+	font-size:16px;
+	color:#444;
+	justify-content:space-between;
+	margin:28px 7px 0px 15px;
+}
+.menu_labels img
+{
+	width:18px;
+}
+.message_container
+{
+	background-color:#fff;
+	width:100%;
+	max-width:75vw;
+	border-radius:15px 15px 0 0;
+	height:80vh;
+}
+.message_body
+{
+	overflow-y:scroll;
+	height:100%;
+	scrollbar-color:#ccc #fff;
+}
+.message_header
+{
+	display:flex;
+	padding:5px 12px;
+}
+.msg_header_right_div
+{
+	margin-left:auto;
+	display:flex;
+	justify-content:space-around;
+	width:200px;
+}
+.select_button
+{
+	display:flex;
+}
+.select_button button
+{
+	border-radius:5px;
+	padding:10px 8px;
+	background:none;
+	border:none;
+	opacity:0.8;
+}
+.select_button button:hover
+{
+	background-color:#eee;
+}
+.message_header button
+{
+	background:none;
+	border:none;
+	opacity:0.8;
+}
+.three_dots img
+{
+	height:12px;
+}
+.check_box img
+{
+	width:14px;
+}
+.select_button_arrow img
+{
+	width:9px;
+}
+.select_button_arrow
+{
+	position:relative;
+	left:-6px;
+	top:-4px;
+}
+.refresh img
+{
+	width:15px;
+}
+.msg_header_right_div img
+{
+	width:5px;
+}
+.refresh,.three_dots
+{
+	border-radius:50%;
+}
+.refresh
+{
+	padding:10px 12px;
+}
+.three_dots
+{
+	padding:1px 19px;
+}
+.refresh:hover,.three_dots:hover
+{
+	background-color:#eee;
+}
+.mail_numbers
+{
+	padding:5px;
+	border-radius:5px;
+}
+.mail_numbers:hover
+{
+	background-color:#eee;
+}
+.message
+{
+	display:flex;
+	justify-content:space-between;
+	padding:11px 18px;
+	font-size:14px;
+	background-color:#f3f8ff;
+	border-bottom:1px solid #ddd;
+}
+.message:hover
+{
+	box-shadow:2px 2px 9px 0px rgb(0, 0, 0, 0.5)
+}
+.message img
+{
+	width:14px;
+	height:14px;
+	opacity:0.3;
+}
+.message_star
+{
+	margin:0 10px;
+}
+
+.message_time
+{
+	font-size:12px;
+}
+.message_dark
+{
+	color:#333;
+}
+.message_light
+{
+	color:#777;
+}
+.message_content
+{
+	max-width:60%;
+	white-space: nowrap;
+  	overflow: hidden;
+  	text-overflow: ellipsis;
+}
+.sender_name
+{
+	display:flex;
+	white-space: nowrap;
+  	overflow: hidden;
+  	text-overflow: ellipsis;
+	max-width:130px;
+}
+.display_flex
+{
+	display:flex;
 }
