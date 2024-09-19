@@ -1,0 +1,91 @@
+ 
+
+@media screen and (max-width: 1115px) 
+{
+
+	.message_container
+	{
+		max-width:72vw;
+	}
+	.main
+	{
+		max-width:94%;
+	}
+	.message
+	{
+		max-width:90%;
+	}
+	
+}
+@media screen and (max-width: 960px) 
+{
+
+	.main
+	{
+		max-width:92.5%;
+	}
+	.notification_button label 
+	{
+		display:none;
+	}
+	.notification_button
+	{
+		border-radius:50%;
+	}
+	.message_container
+	{
+		width:71%;
+	}
+}
+@media screen and (max-width: 870px) 
+{
+
+	.search_box input
+	{
+		display:none;
+	}
+	.options_button
+	{
+		display:none;
+	}
+	.search_box
+	{
+		width: fit-content;
+		background:none;
+	}
+	.notification_button
+	{
+		width: fit-content;
+	}
+	.message
+	{
+		flex-direction:column;
+	}
+	.message_content
+	{
+		flex-direction:column;
+		margin-left:30px;
+	}
+	.sender_name
+	{
+		margin-left:15px;
+	}
+	.message_star
+	{	
+		display:none;
+	}
+	.message_content_seperator
+	{
+		display:none;
+	}
+	.message_container
+	{
+		width:66%;
+	{	
+	.message_body_right	
+	{
+		position:relative;
+		top:-30px;
+	}
+}
+
