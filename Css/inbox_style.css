@@ -17,7 +17,7 @@ nav
 .nav_item
 {
 	margin:15px auto 17px auto;
-	width:38px;
+	width:68px;
 	justify-content:center;
 	display: grid;
 	font-size:12px;
@@ -256,7 +256,7 @@ nav
 	background-color: #c2e7ff;
 	border:none;
 	display:flex;
-	justify-content:space-around;
+
 	align-items:center;
 	height:55px;
 	width:138px;
@@ -264,10 +264,14 @@ nav
 	font-size:14px;
 	color:#333;
 	margin-bottom:16px;
+	font-weight:bold;
+	color:#555;
 }
+
 .compose img
 {
 	width:20px;
+	margin:0px 16px 0 12px;
 }
 .menu_items
 {
@@ -278,11 +282,11 @@ nav
 	display:flex;
 	align-items:center;
 	cursor:pointer;
+	width: 210px;
 }
 .more_button
 {
 	border-radius:20px;
-	margin:none;
 	padding:6px 6px;
 	cursor:pointer;
 }	
@@ -331,7 +335,7 @@ nav
 	background-color:#fff;
 	width:100%;
 	max-width:75vw;
-	border-radius:15px 15px 0 0;
+	border-radius:15px;
 	height:80vh;
 }
 .message_body
@@ -351,6 +355,7 @@ nav
 	display:flex;
 	justify-content:space-around;
 	width:200px;
+	opacity:0.7;
 }
 .select_button
 {
@@ -420,6 +425,7 @@ nav
 {
 	padding:5px;
 	border-radius:5px;
+	font-size:13px
 }
 .mail_numbers:hover
 {
@@ -428,15 +434,28 @@ nav
 .message
 {
 	display:flex;
-	justify-content:space-between;
 	padding:11px 18px;
 	font-size:14px;
 	background-color:#f3f8ff;
 	border-bottom:1px solid #ddd;
+	margin:1px 0 ;
+	cursor:pointer;
 }
 .message:hover
 {
-	box-shadow:2px 2px 9px 0px rgb(0, 0, 0, 0.5)
+	box-shadow: inset 1px 0 0 #ddd, inset -1px 0 0 #ddd, 0 1px 2px 0 #3c40434d, 0 1px 3px 1px #3c404326;
+}
+.message:hover .message_star,.message:hover .message_selector
+{
+	opacity:0.7;
+}
+.message:hover .message_time
+{
+	display:none;
+}
+.message:hover 	.message_hover_display
+{
+	display:flex;
 }
 .message img
 {
@@ -446,12 +465,15 @@ nav
 }
 .message_star
 {
-	margin:0 10px;
+	margin:0 15px;
 }
 
 .message_time
 {
 	font-size:12px;
+	width:50px;
+	display:flex;
+	padding-left:20px;
 }
 .message_dark
 {
@@ -463,20 +485,55 @@ nav
 }
 .message_content
 {
-	max-width:60%;
+	
+	max-width:63%;
 	white-space: nowrap;
   	overflow: hidden;
   	text-overflow: ellipsis;
+	margin-left:50px;
+	margin-right:auto;
 }
 .sender_name
 {
-	display:flex;
 	white-space: nowrap;
   	overflow: hidden;
   	text-overflow: ellipsis;
-	max-width:130px;
+	width:130px;	
 }
 .display_flex
 {
 	display:flex;
+}
+.message_body_footer
+{
+	background:#fff;
+	border-radius:15px;
+	font-size:12px;
+	color:#666;
+	display:flex;
+	padding:20px;
+	justify-content:space-between;
+}
+.message_body_right
+{
+	margin-left:auto;
+}
+.message_footer_center
+{
+	text-align:center;
+}
+.message_footer_right
+{
+	text-align:right;
+}
+.message_hover_display img
+{
+	opacity:0.7;
+}
+.message_hover_display
+{
+	justify-content:space-between;
+	width:100px;
+	display:none;
+	padding-left:20px;
 }
