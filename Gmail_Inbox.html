@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="css/inbox_style.css">
 		<link rel="stylesheet" href="css/inbox_responsive.css">
-
 		<title>Inbox</title>
-		<link rel="stylesheet" type="text/css" media="screen and (max-width:1024px)" href="css/laptop-screen.css">
-
 		<link rel="icon" type="image/x-icon" href="Assets/images/FAV-gmail.png">
 	</head>
 	<body>
@@ -35,7 +33,7 @@
 		</nav>
 		<div class="main">
 			<div class="header_div">
-				<div class="menu_image_responsive">
+				<div class="menu_button_laptop">
 					<img src="Assets/images/menu.png" alt="Image Not Found">
 				</div>
 				<img src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_default_1x_r5.png" alt="Image Not Found" class="logo">
@@ -51,17 +49,13 @@
 				<button class="header_icons">
 					<img src="Assets/images/settings.png" alt="Image Not Found">
 				</button>
-				<button class="header_icons apps_icon">
+				<button class="header_icons">
 					<img src="Assets/images/apps.png" alt="Image Not Found">
 				</button>
 				<button class="profile">
 					<img src="Assets/images/techversant.png" alt="Image Not Found">
 					<b>A</b>
 				</button>
-			</div>	
-			<div class="mobile_header">
-				<img src="Assets/images/FAV-gmail.png" alt="Image not found">
-				<label></label>
 			</div>
 			<div class="main_contents">
 				<div class="main_menu">
@@ -92,18 +86,6 @@
 						Labels
 						<img src="Assets/images/add.png" alt="Image not found">
 					</div>
-					<div class="menu_meet_hidden">
-						<label class="menu_meet">Meet</label>
-						<button>
-							<img src="Assets/images/meet.png" alt="Image Not Found">New meeting
-						</button>
-						<button>
-							<img src="Assets/images/calender.png" alt="Image Not Found">My meeting
-						</button>
-					</div>
-					<div class="menu_hidden_text">	
-						<label>Google Chat in Gmail doesn't yet support the browser you was using. To continue, Use <a>Chrome</a><label>
-					</div>
 				</div>
 				<div class="message_container">
 					<div class="message_header">
@@ -119,481 +101,56 @@
 							<button><img src="Assets/images/nav-arrow-right.png" alt="Image not found"></button>
 						</div>
 					</div>
+					<div class="notification_bar_mobile">
+						<div>
+							<img src="Assets/images/FAV-gmail.png" alt="Image not found">
+						</div>
+						<span>
+							<span class="mobile_notif_dark">	
+								Upgrade to smarter Gmail
+							</span>
+							<span class="mobile_notif_light">
+								Secure, fast & organized email
+							</span>
+						</span>
+						<a href="">OPEN</a>
+					</div>
+					<div class="message_header_mobile">
+						<div class="mobile_header_left">
+							<button class="menu_button_mobile">
+								<img src="Assets/images/menu.png" alt="Image Not Found" >
+							</button>
+							<button class="refresh_button_mobile">
+								<img src="Assets/images/refresh.png" alt="Image not found">
+							</button>
+						</div>
+						<div class="mobile_header_center">
+							<span class="mobile_header_title">Inbox</span><span class="mobile_header_number"></span>
+						</div>
+						<div class="message_header_right">
+							<button class="compose_button_mobile">
+								<img src="Assets/images/pencil_white.png" alt="Image not found">
+							</button>
+						</div>
+					</div>
+					<div class="search_bar_mobile">
+						<img src="Assets/images/search.png" alt="Image Not Found" >
+						<input type="text" placeholder="Search">
+					</div>
 					<div class="message_body">
 						<div class="message">
-							<div class="message_body_left display_flex ">
-								<img src="Assets/images/check-box.png" alt="Image not found" class="message_selector">
-								<img src="Assets/images/star.png" alt="Image not found" class="message_star">
-								<span class="message_dark  sender_name">Techversant Infotech private</span>
-							</div>
-							<div class="  message_content">
-								<span class="message_dark">It's a Baby Boy !!!</span>
-								<span class="message_content_seperator">-</span>
-								<span class="message_light   ">Dear Techversans, Greetings for the day!!!We are excited to share the good news with you</span>
-							</div>
-							<div class="message_body_right">
-								<div class="message_hover_display">
-									<img src="Assets/images/archive-box.png" alt="Image not found">
-									<img src="Assets/images/trash.png" alt="Image not found">
-									<img src="Assets/images/message_2.png" alt="Image not found">
-									<img src="Assets/images/clock_2.png" alt="Image not found">
+							<div class="message_mobile_main">
+								<div class="message_body_left  display_flex">
+									<img src="Assets/images/check-box.png" alt="Image not found" class="message_selector">
+									<img src="Assets/images/star.png" alt="Image not found" class="message_star">
+									<span class="message_dark  sender_name">Techversant Infotech</span>
 								</div>
-								<span class="message_light message_time">9:28 AM</span>
-							</div>
-						</div>
-						<div class="message">
-							<div class="message_body_left  display_flex">
-								<img src="Assets/images/check-box.png" alt="Image not found" class="message_selector">
-								<img src="Assets/images/star.png" alt="Image not found" class="message_star">
-								<span class="message_dark  sender_name">HR Techvrsant</span>
-							</div>
-							<div class="  message_content">
-								<span class="message_dark">Welcome Aboard !!! - 18th September 2024
-								</span>
-								<span class="message_content_seperator">-</span>
-								<span class="message_light   ">Daily Digest Wednesday, 18 Sep Hello, Abhijith Naiju  On leave today (4)  view all </span>
-							</div>
-							<div class="message_body_right">
-								<div class="message_hover_display">
-									<img src="Assets/images/archive-box.png" alt="Image not found">
-									<img src="Assets/images/trash.png" alt="Image not found">
-									<img src="Assets/images/message_2.png" alt="Image not found">
-									<img src="Assets/images/clock_2.png" alt="Image not found">
-								</div>
-								<span class="message_light message_time">9:28 AM</span>
-							</div>
-						</div>
-						<div class="message">
-							<div class="message_body_left  display_flex">
-								<img src="Assets/images/check-box.png" alt="Image not found" class="message_selector">
-								<img src="Assets/images/star.png" alt="Image not found" class="message_star">
-								<span class="message_dark  sender_name">Techversant Infotech</span>
-							</div>
-							<div class="  message_content">
-								<span class="message_dark">Daily Email Digest</span>
-								<span class="message_content_seperator">-</span>
-								<span class="message_light   ">Daily Digest Wednesday, 18 Sep Hello, Abhijith Naiju  On leave today (4)  view all </span>
-							</div>
-							<div class="message_body_right">
-								<div class="message_hover_display">
-									<img src="Assets/images/archive-box.png" alt="Image not found">
-									<img src="Assets/images/trash.png" alt="Image not found">
-									<img src="Assets/images/message_2.png" alt="Image not found">
-									<img src="Assets/images/clock_2.png" alt="Image not found">
-								</div>
-								<span class="message_light message_time">9:28 AM</span>
-							</div>
-						</div>
-						<div class="message">
-							<div class="message_body_left  display_flex">
-								<img src="Assets/images/check-box.png" alt="Image not found" class="message_selector">
-								<img src="Assets/images/star.png" alt="Image not found" class="message_star">
-								<span class="message_dark  sender_name">HR Techvrsant</span>
-							</div>
-							<div class="  message_content">
-								<span class="message_dark">Daily Email Digest</span>
-								<span class="message_content_seperator">-</span>
-								<span class="message_light   ">Daily Digest Wednesday, 18 Sep Hello, Abhijith Naiju  On leave today (4)  view all </span>
-							</div>
-							<div class="message_body_right">
-								<div class="message_hover_display">
-									<img src="Assets/images/archive-box.png" alt="Image not found">
-									<img src="Assets/images/trash.png" alt="Image not found">
-									<img src="Assets/images/message_2.png" alt="Image not found">
-									<img src="Assets/images/clock_2.png" alt="Image not found">
-								</div>
-								<span class="message_light message_time">9:28 AM</span>
-							</div>
-						</div>
-						<div class="message">
-							<div class="message_body_left  display_flex">
-								<img src="Assets/images/check-box.png" alt="Image not found" class="message_selector">
-								<img src="Assets/images/star.png" alt="Image not found" class="message_star">
-								<span class="message_dark  sender_name">HR Techvrsant</span>
-							</div>
-							<div class="  message_content">
-								<span class="message_dark">Daily Email Digest</span>
-								<span class="message_content_seperator">-</span>
-								<span class="message_light   ">Daily Digest Wednesday, 18 Sep Hello, Abhijith Naiju  On leave today (4)  view all </span>
-							</div>
-							<div class="message_body_right">
-								<div class="message_hover_display">
-									<img src="Assets/images/archive-box.png" alt="Image not found">
-									<img src="Assets/images/trash.png" alt="Image not found">
-									<img src="Assets/images/message_2.png" alt="Image not found">
-									<img src="Assets/images/clock_2.png" alt="Image not found">
-								</div>
-								<span class="message_light message_time">9:28 AM</span>
-							</div>
-						</div>
-						<div class="message">
-							<div class="message_body_left  display_flex">
-								<img src="Assets/images/check-box.png" alt="Image not found" class="message_selector">
-								<img src="Assets/images/star.png" alt="Image not found" class="message_star">
-								<span class="message_dark  sender_name">Techversant Infotech</span>
-							</div>
-							<div class="  message_content">
-								<span class="message_dark">Daily Email Digest</span>
-								<span class="message_content_seperator">-</span>
-								<span class="message_light   ">Daily Digest Wednesday, 18 Sep Hello, Abhijith Naiju  On leave today (4)  view all </span>
-							</div>
-							<div class="message_body_right">
-								<div class="message_hover_display">
-									<img src="Assets/images/archive-box.png" alt="Image not found">
-									<img src="Assets/images/trash.png" alt="Image not found">
-									<img src="Assets/images/message_2.png" alt="Image not found">
-									<img src="Assets/images/clock_2.png" alt="Image not found">
-								</div>
-								<span class="message_light message_time">9:28 AM</span>
-							</div>
-						</div>
-						<div class="message">
-							<div class="message_body_left  display_flex">
-								<img src="Assets/images/check-box.png" alt="Image not found" class="message_selector">
-								<img src="Assets/images/star.png" alt="Image not found" class="message_star">
-								<span class="message_dark  sender_name">Techversant Infotech</span>
-							</div>
-							<div class="  message_content">
-								<span class="message_dark">Daily Email Digest</span>
-								<span class="message_content_seperator">-</span>
-								<span class="message_light   ">Daily Digest Wednesday, 18 Sep Hello, Abhijith Naiju  On leave today (4)  view all </span>
-							</div>
-							<div class="message_body_right">
-								<div class="message_hover_display">
-									<img src="Assets/images/archive-box.png" alt="Image not found">
-									<img src="Assets/images/trash.png" alt="Image not found">
-									<img src="Assets/images/message_2.png" alt="Image not found">
-									<img src="Assets/images/clock_2.png" alt="Image not found">
-								</div>
-								<span class="message_light message_time">9:28 AM</span>
-							</div>
-						</div>
-						<div class="message">
-							<div class="message_body_left  display_flex">
-								<img src="Assets/images/check-box.png" alt="Image not found" class="message_selector">
-								<img src="Assets/images/star.png" alt="Image not found" class="message_star">
-								<span class="message_dark  sender_name">HR Techvrsant</span>
-							</div>
-							<div class="  message_content">
-								<span class="message_dark">Daily Email Digest</span>
-								<span class="message_content_seperator">-</span>
-								<span class="message_light   ">Daily Digest Wednesday, 18 Sep Hello, Abhijith Naiju  On leave today (4)  view all </span>
-							</div>
-							<div class="message_body_right">
-								<div class="message_hover_display">
-									<img src="Assets/images/archive-box.png" alt="Image not found">
-									<img src="Assets/images/trash.png" alt="Image not found">
-									<img src="Assets/images/message_2.png" alt="Image not found">
-									<img src="Assets/images/clock_2.png" alt="Image not found">
-								</div>
-								<span class="message_light message_time">9:28 AM</span>
-							</div>
-						</div>
-						<div class="message">
-							<div class="message_body_left  display_flex">
-								<img src="Assets/images/check-box.png" alt="Image not found" class="message_selector">
-								<img src="Assets/images/star.png" alt="Image not found" class="message_star">
-								<span class="message_dark  sender_name">Techversant Infotech</span>
-							</div>
-							<div class="  message_content">
-								<span class="message_dark">Daily Email Digest</span>
-								<span class="message_content_seperator">-</span>
-								<span class="message_light   ">Daily Digest Wednesday, 18 Sep Hello, Abhijith Naiju  On leave today (4)  view all </span>
-							</div>
-							<div class="message_body_right">
-								<div class="message_hover_display">
-									<img src="Assets/images/archive-box.png" alt="Image not found">
-									<img src="Assets/images/trash.png" alt="Image not found">
-									<img src="Assets/images/message_2.png" alt="Image not found">
-									<img src="Assets/images/clock_2.png" alt="Image not found">
-								</div>
-								<span class="message_light message_time">9:28 AM</span>
-							</div>
-						</div>
-						<div class="message">
-							<div class="message_body_left  display_flex">
-								<img src="Assets/images/check-box.png" alt="Image not found" class="message_selector">
-								<img src="Assets/images/star.png" alt="Image not found" class="message_star">
-								<span class="message_dark  sender_name">HR Techvrsant</span>
-							</div>
-							<div class="  message_content">
-								<span class="message_dark">Daily Email Digest</span>
-								<span class="message_content_seperator">-</span>
-								<span class="message_light   ">Daily Digest Wednesday, 18 Sep Hello, Abhijith Naiju  On leave today (4)  view all </span>
-							</div>
-							<div class="message_body_right">
-								<div class="message_hover_display">
-									<img src="Assets/images/archive-box.png" alt="Image not found">
-									<img src="Assets/images/trash.png" alt="Image not found">
-									<img src="Assets/images/message_2.png" alt="Image not found">
-									<img src="Assets/images/clock_2.png" alt="Image not found">
-								</div>
-								<span class="message_light message_time">9:28 AM</span>
-							</div>
-						</div>
-						<div class="message">
-							<div class="message_body_left  display_flex">
-								<img src="Assets/images/check-box.png" alt="Image not found" class="message_selector">
-								<img src="Assets/images/star.png" alt="Image not found" class="message_star">
-								<span class="message_dark  sender_name">HR Techvrsant</span>
-							</div>
-							<div class="  message_content">
-								<span class="message_dark">Daily Email Digest</span>
-								<span class="message_content_seperator">-</span>
-								<span class="message_light   ">Daily Digest Wednesday, 18 Sep Hello, Abhijith Naiju  On leave today (4)  view all </span>
-							</div>
-							<div class="message_body_right">
-								<div class="message_hover_display">
-									<img src="Assets/images/archive-box.png" alt="Image not found">
-									<img src="Assets/images/trash.png" alt="Image not found">
-									<img src="Assets/images/message_2.png" alt="Image not found">
-									<img src="Assets/images/clock_2.png" alt="Image not found">
-								</div>
-								<span class="message_light message_time">9:28 AM</span>
-							</div>
-						</div>
-						<div class="message">
-							<div class="message_body_left  display_flex">
-								<img src="Assets/images/check-box.png" alt="Image not found" class="message_selector">
-								<img src="Assets/images/star.png" alt="Image not found" class="message_star">
-								<span class="message_dark  sender_name">HR Techvrsant</span>
-							</div>
-							<div class="  message_content">
-								<span class="message_dark">Daily Email Digest</span>
-								<span class="message_content_seperator">-</span>
-								<span class="message_light   ">Daily Digest Wednesday, 18 Sep Hello, Abhijith Naiju  On leave today (4)  view all </span>
-							</div>
-							<div class="message_body_right">
-								<div class="message_hover_display">
-									<img src="Assets/images/archive-box.png" alt="Image not found">
-									<img src="Assets/images/trash.png" alt="Image not found">
-									<img src="Assets/images/message_2.png" alt="Image not found">
-									<img src="Assets/images/clock_2.png" alt="Image not found">
-								</div>
-								<span class="message_light message_time">9:28 AM</span>
-							</div>
-						</div>
-						<div class="message">
-							<div class="message_body_left  display_flex">
-								<img src="Assets/images/check-box.png" alt="Image not found" class="message_selector">
-								<img src="Assets/images/star.png" alt="Image not found" class="message_star">
-								<span class="message_dark  sender_name">HR Techvrsant</span>
-							</div>
-							<div class="  message_content">
-								<span class="message_dark">Daily Email Digest</span>
-								<span class="message_content_seperator">-</span>
-								<span class="message_light   ">Daily Digest Wednesday, 18 Sep Hello, Abhijith Naiju  On leave today (4)  view all </span>
-							</div>
-							<div class="message_body_right">
-								<div class="message_hover_display">
-									<img src="Assets/images/archive-box.png" alt="Image not found">
-									<img src="Assets/images/trash.png" alt="Image not found">
-									<img src="Assets/images/message_2.png" alt="Image not found">
-									<img src="Assets/images/clock_2.png" alt="Image not found">
-								</div>
-								<span class="message_light message_time">9:28 AM</span>
-							</div>
-						</div>
-						<div class="message">
-							<div class="message_body_left  display_flex">
-								<img src="Assets/images/check-box.png" alt="Image not found" class="message_selector">
-								<img src="Assets/images/star.png" alt="Image not found" class="message_star">
-								<span class="message_dark  sender_name">HR Techvrsant</span>
-							</div>
-							<div class="  message_content">
-								<span class="message_dark">Daily Email Digest</span>
-								<span class="message_content_seperator">-</span>
-								<span class="message_light   ">Daily Digest Wednesday, 18 Sep Hello, Abhijith Naiju  On leave today (4)  view all </span>
-							</div>
-							<div class="message_body_right">
-								<div class="message_hover_display">
-									<img src="Assets/images/archive-box.png" alt="Image not found">
-									<img src="Assets/images/trash.png" alt="Image not found">
-									<img src="Assets/images/message_2.png" alt="Image not found">
-									<img src="Assets/images/clock_2.png" alt="Image not found">
-								</div>
-								<span class="message_light message_time">9:28 AM</span>
-							</div>
-						</div>
-						<div class="message">
-							<div class="message_body_left  display_flex">
-								<img src="Assets/images/check-box.png" alt="Image not found" class="message_selector">
-								<img src="Assets/images/star.png" alt="Image not found" class="message_star">
-								<span class="message_dark  sender_name">HR Techvrsant</span>
-							</div>
-							<div class="  message_content">
-								<span class="message_dark">Daily Email Digest</span>
-								<span class="message_content_seperator">-</span>
-								<span class="message_light   ">Daily Digest Wednesday, 18 Sep Hello, Abhijith Naiju  On leave today (4)  view all </span>
-							</div>
-							<div class="message_body_right">
-								<div class="message_hover_display">
-									<img src="Assets/images/archive-box.png" alt="Image not found">
-									<img src="Assets/images/trash.png" alt="Image not found">
-									<img src="Assets/images/message_2.png" alt="Image not found">
-									<img src="Assets/images/clock_2.png" alt="Image not found">
-								</div>
-								<span class="message_light message_time">9:28 AM</span>
-							</div>
-						</div>
-						<div class="message">
-							<div class="message_body_left  display_flex">
-								<img src="Assets/images/check-box.png" alt="Image not found" class="message_selector">
-								<img src="Assets/images/star.png" alt="Image not found" class="message_star">
-								<span class="message_dark  sender_name">HR Techvrsant</span>
-							</div>
-							<div class="  message_content">
-								<span class="message_dark">Daily Email Digest</span>
-								<span class="message_content_seperator">-</span>
-								<span class="message_light   ">Daily Digest Wednesday, 18 Sep Hello, Abhijith Naiju  On leave today (4)  view all </span>
-							</div>
-							<div class="message_body_right">
-								<div class="message_hover_display">
-									<img src="Assets/images/archive-box.png" alt="Image not found">
-									<img src="Assets/images/trash.png" alt="Image not found">
-									<img src="Assets/images/message_2.png" alt="Image not found">
-									<img src="Assets/images/clock_2.png" alt="Image not found">
-								</div>
-								<span class="message_light message_time">9:28 AM</span>
-							</div>
-						</div>
-						<div class="message">
-							<div class="message_body_left  display_flex">
-								<img src="Assets/images/check-box.png" alt="Image not found" class="message_selector">
-								<img src="Assets/images/star.png" alt="Image not found" class="message_star">
-								<span class="message_dark  sender_name">HR Techvrsant</span>
-							</div>
-							<div class="  message_content">
-								<span class="message_dark">Daily Email Digest</span>
-								<span class="message_content_seperator">-</span>
-								<span class="message_light   ">Daily Digest Wednesday, 18 Sep Hello, Abhijith Naiju  On leave today (4)  view all </span>
-							</div>
-							<div class="message_body_right">
-								<div class="message_hover_display">
-									<img src="Assets/images/archive-box.png" alt="Image not found">
-									<img src="Assets/images/trash.png" alt="Image not found">
-									<img src="Assets/images/message_2.png" alt="Image not found">
-									<img src="Assets/images/clock_2.png" alt="Image not found">
-								</div>
-								<span class="message_light message_time">9:28 AM</span>
-							</div>
-						</div>
-						<div class="message">
-							<div class="message_body_left  display_flex">
-								<img src="Assets/images/check-box.png" alt="Image not found" class="message_selector">
-								<img src="Assets/images/star.png" alt="Image not found" class="message_star">
-								<span class="message_dark  sender_name">HR Techvrsant</span>
-							</div>
-							<div class="  message_content">
-								<span class="message_dark">Daily Email Digest</span>
-								<span class="message_content_seperator">-</span>
-								<span class="message_light   ">Daily Digest Wednesday, 18 Sep Hello, Abhijith Naiju  On leave today (4)  view all </span>
-							</div>
-							<div class="message_body_right">
-								<div class="message_hover_display">
-									<img src="Assets/images/archive-box.png" alt="Image not found">
-									<img src="Assets/images/trash.png" alt="Image not found">
-									<img src="Assets/images/message_2.png" alt="Image not found">
-									<img src="Assets/images/clock_2.png" alt="Image not found">
-								</div>
-								<span class="message_light message_time">9:28 AM</span>
-							</div>
-						</div>
-						<div class="message">
-							<div class="message_body_left  display_flex">
-								<img src="Assets/images/check-box.png" alt="Image not found" class="message_selector">
-								<img src="Assets/images/star.png" alt="Image not found" class="message_star">
-								<span class="message_dark  sender_name">Techversant Infotech</span>
-							</div>
-							<div class="  message_content">
-								<span class="message_dark">Daily Email Digest</span>
-								<span class="message_content_seperator">-</span>
-								<span class="message_light   ">Daily Digest Wednesday, 18 Sep Hello, Abhijith Naiju  On leave today (4)  view all </span>
-							</div>
-							<div class="message_body_right">
-								<div class="message_hover_display">
-									<img src="Assets/images/archive-box.png" alt="Image not found">
-									<img src="Assets/images/trash.png" alt="Image not found">
-									<img src="Assets/images/message_2.png" alt="Image not found">
-									<img src="Assets/images/clock_2.png" alt="Image not found">
-								</div>
-								<span class="message_light message_time">9:28 AM</span>
-							</div>
-						</div>
-						<div class="message">
-							<div class="message_body_left  display_flex">
-								<img src="Assets/images/check-box.png" alt="Image not found" class="message_selector">
-								<img src="Assets/images/star.png" alt="Image not found" class="message_star">
-								<span class="message_dark  sender_name">Techversant Infotech</span>
-							</div>
-							<div class="  message_content">
-								<span class="message_dark">Daily Email Digest</span>
-								<span class="message_content_seperator">-</span>
-								<span class="message_light   ">Daily Digest Wednesday, 18 Sep Hello, Abhijith Naiju  On leave today (4)  view all </span>
-							</div>
-							<div class="message_body_right">
-								<div class="message_hover_display">
-									<img src="Assets/images/archive-box.png" alt="Image not found">
-									<img src="Assets/images/trash.png" alt="Image not found">
-									<img src="Assets/images/message_2.png" alt="Image not found">
-									<img src="Assets/images/clock_2.png" alt="Image not found">
-								</div>
-								<span class="message_light message_time">9:28 AM</span>
-							</div>
-						</div>
-						<div class="message">
-							<div class="message_body_left  display_flex">
-								<img src="Assets/images/check-box.png" alt="Image not found" class="message_selector">
-								<img src="Assets/images/star.png" alt="Image not found" class="message_star">
-								<span class="message_dark  sender_name">Techversant Infotech</span>
-							</div>
-							<div class="  message_content">
-								<span class="message_dark">Daily Email Digest</span>
-								<span class="message_content_seperator">-</span>
-								<span class="message_light   ">Daily Digest Wednesday, 18 Sep Hello, Abhijith Naiju  On leave today (4)  view all </span>
-							</div>
-							<div class="message_body_right">
-								<div class="message_hover_display">
-									<img src="Assets/images/archive-box.png" alt="Image not found">
-									<img src="Assets/images/trash.png" alt="Image not found">
-									<img src="Assets/images/message_2.png" alt="Image not found">
-									<img src="Assets/images/clock_2.png" alt="Image not found">
-								</div>
-								<span class="message_light message_time">9:28 AM</span>
-							</div>
-						</div>
-						<div class="message">
-							<div class="message_body_left  display_flex">
-								<img src="Assets/images/check-box.png" alt="Image not found" class="message_selector">
-								<img src="Assets/images/star.png" alt="Image not found" class="message_star">
-								<span class="message_dark  sender_name">Techversant Infotech</span>
-							</div>
-							<div class="  message_content">
-								<span class="message_dark">Daily Email Digest</span>
-								<span class="message_content_seperator">-</span>
-								<span class="message_light   ">Daily Digest Wednesday, 18 Sep Hello, Abhijith Naiju  On leave today (4)  view all </span>
-							</div>
-							<div class="message_body_right">
-								<div class="message_hover_display">
-									<img src="Assets/images/archive-box.png" alt="Image not found">
-									<img src="Assets/images/trash.png" alt="Image not found">
-									<img src="Assets/images/message_2.png" alt="Image not found">
-									<img src="Assets/images/clock_2.png" alt="Image not found">
-								</div>
-								<span class="message_light message_time">9:28 AM</span>
-							</div>
-						</div>
-						<div class="message">
-							<div class="message_body_left  display_flex">
-								<img src="Assets/images/check-box.png" alt="Image not found" class="message_selector">
-								<img src="Assets/images/star.png" alt="Image not found" class="message_star">
-								<span class="message_dark  sender_name">HR Techvrsant</span>
-							</div>
 							<div class="  message_content">
 								<span class="message_dark">Daily Email Digest</span>
 								<span class="message_content_seperator">-</span>
 								<span class="message_light   ">Daily Digest Wednesday, 18 Sep Hello, Abhijith Naiju  On leave today (4)  view all hr</span>
 							</div>
+							</div>
 							<div class="message_body_right">
 								<div class="message_hover_display">
 									<img src="Assets/images/archive-box.png" alt="Image not found">
@@ -602,6 +159,464 @@
 									<img src="Assets/images/clock_2.png" alt="Image not found">
 								</div>
 								<span class="message_light message_time">9:28 AM</span>
+								<button class="hidden_star">
+									<img src="Assets/images/star.png" alt="Image not found" >
+								</button>
+							</div>
+						</div>
+						<div class="message">
+							<div class="message_mobile_main">
+								<div class="message_body_left  display_flex">
+									<img src="Assets/images/check-box.png" alt="Image not found" class="message_selector">
+									<img src="Assets/images/star.png" alt="Image not found" class="message_star">
+									<span class="message_dark  sender_name">Techversant Infotech</span>
+								</div>
+							<div class="  message_content">
+								<span class="message_dark">Daily Email Digest</span>
+								<span class="message_content_seperator">-</span>
+								<span class="message_light   ">Daily Digest Wednesday, 18 Sep Hello, Abhijith Naiju  On leave today (4)  view all hr</span>
+							</div>
+							</div>
+							<div class="message_body_right">
+								<div class="message_hover_display">
+									<img src="Assets/images/archive-box.png" alt="Image not found">
+									<img src="Assets/images/trash.png" alt="Image not found">
+									<img src="Assets/images/message_2.png" alt="Image not found">
+									<img src="Assets/images/clock_2.png" alt="Image not found">
+								</div>
+								<span class="message_light message_time">9:28 AM</span>
+								<button class="hidden_star">
+									<img src="Assets/images/star.png" alt="Image not found" >
+								</button>
+							</div>
+						</div>
+						<div class="message">
+							<div class="message_mobile_main">
+								<div class="message_body_left  display_flex">
+									<img src="Assets/images/check-box.png" alt="Image not found" class="message_selector">
+									<img src="Assets/images/star.png" alt="Image not found" class="message_star">
+									<span class="message_dark  sender_name">Techversant Infotech</span>
+								</div>
+							<div class="  message_content">
+								<span class="message_dark">Daily Email Digest</span>
+								<span class="message_content_seperator">-</span>
+								<span class="message_light   ">Daily Digest Wednesday, 18 Sep Hello, Abhijith Naiju  On leave today (4)  view all hr</span>
+							</div>
+							</div>
+							<div class="message_body_right">
+								<div class="message_hover_display">
+									<img src="Assets/images/archive-box.png" alt="Image not found">
+									<img src="Assets/images/trash.png" alt="Image not found">
+									<img src="Assets/images/message_2.png" alt="Image not found">
+									<img src="Assets/images/clock_2.png" alt="Image not found">
+								</div>
+								<span class="message_light message_time">9:28 AM</span>
+								<button class="hidden_star">
+									<img src="Assets/images/star.png" alt="Image not found" >
+								</button>
+							</div>
+						</div>
+						<div class="message">
+							<div class="message_mobile_main">
+								<div class="message_body_left  display_flex">
+									<img src="Assets/images/check-box.png" alt="Image not found" class="message_selector">
+									<img src="Assets/images/star.png" alt="Image not found" class="message_star">
+									<span class="message_dark  sender_name">Techversant Infotech</span>
+								</div>
+							<div class="  message_content">
+								<span class="message_dark">Daily Email Digest</span>
+								<span class="message_content_seperator">-</span>
+								<span class="message_light   ">Daily Digest Wednesday, 18 Sep Hello, Abhijith Naiju  On leave today (4)  view all hr</span>
+							</div>
+							</div>
+							<div class="message_body_right">
+								<div class="message_hover_display">
+									<img src="Assets/images/archive-box.png" alt="Image not found">
+									<img src="Assets/images/trash.png" alt="Image not found">
+									<img src="Assets/images/message_2.png" alt="Image not found">
+									<img src="Assets/images/clock_2.png" alt="Image not found">
+								</div>
+								<span class="message_light message_time">9:28 AM</span>
+								<button class="hidden_star">
+									<img src="Assets/images/star.png" alt="Image not found" >
+								</button>
+							</div>
+						</div>
+						<div class="message">
+							<div class="message_mobile_main">
+								<div class="message_body_left  display_flex">
+									<img src="Assets/images/check-box.png" alt="Image not found" class="message_selector">
+									<img src="Assets/images/star.png" alt="Image not found" class="message_star">
+									<span class="message_dark  sender_name">Techversant Infotech</span>
+								</div>
+							<div class="  message_content">
+								<span class="message_dark">Daily Email Digest</span>
+								<span class="message_content_seperator">-</span>
+								<span class="message_light   ">Daily Digest Wednesday, 18 Sep Hello, Abhijith Naiju  On leave today (4)  view all hr</span>
+							</div>
+							</div>
+							<div class="message_body_right">
+								<div class="message_hover_display">
+									<img src="Assets/images/archive-box.png" alt="Image not found">
+									<img src="Assets/images/trash.png" alt="Image not found">
+									<img src="Assets/images/message_2.png" alt="Image not found">
+									<img src="Assets/images/clock_2.png" alt="Image not found">
+								</div>
+								<span class="message_light message_time">9:28 AM</span>
+								<button class="hidden_star">
+									<img src="Assets/images/star.png" alt="Image not found" >
+								</button>
+							</div>
+						</div>
+
+						<div class="message">
+							<div class="message_mobile_main">
+								<div class="message_body_left  display_flex">
+									<img src="Assets/images/check-box.png" alt="Image not found" class="message_selector">
+									<img src="Assets/images/star.png" alt="Image not found" class="message_star">
+									<span class="message_dark  sender_name">Techversant Infotech</span>
+								</div>
+							<div class="  message_content">
+								<span class="message_dark">Daily Email Digest</span>
+								<span class="message_content_seperator">-</span>
+								<span class="message_light   ">Daily Digest Wednesday, 18 Sep Hello, Abhijith Naiju  On leave today (4)  view all hr</span>
+							</div>
+							</div>
+							<div class="message_body_right">
+								<div class="message_hover_display">
+									<img src="Assets/images/archive-box.png" alt="Image not found">
+									<img src="Assets/images/trash.png" alt="Image not found">
+									<img src="Assets/images/message_2.png" alt="Image not found">
+									<img src="Assets/images/clock_2.png" alt="Image not found">
+								</div>
+								<span class="message_light message_time">9:28 AM</span>
+								<button class="hidden_star">
+									<img src="Assets/images/star.png" alt="Image not found" >
+								</button>
+							</div>
+						</div>
+
+						<div class="message">
+							<div class="message_mobile_main">
+								<div class="message_body_left  display_flex">
+									<img src="Assets/images/check-box.png" alt="Image not found" class="message_selector">
+									<img src="Assets/images/star.png" alt="Image not found" class="message_star">
+									<span class="message_dark  sender_name">Techversant Infotech</span>
+								</div>
+							<div class="  message_content">
+								<span class="message_dark">Daily Email Digest</span>
+								<span class="message_content_seperator">-</span>
+								<span class="message_light   ">Daily Digest Wednesday, 18 Sep Hello, Abhijith Naiju  On leave today (4)  view all hr</span>
+							</div>
+							</div>
+							<div class="message_body_right">
+								<div class="message_hover_display">
+									<img src="Assets/images/archive-box.png" alt="Image not found">
+									<img src="Assets/images/trash.png" alt="Image not found">
+									<img src="Assets/images/message_2.png" alt="Image not found">
+									<img src="Assets/images/clock_2.png" alt="Image not found">
+								</div>
+								<span class="message_light message_time">9:28 AM</span>
+								<button class="hidden_star">
+									<img src="Assets/images/star.png" alt="Image not found" >
+								</button>
+							</div>
+						</div>
+						
+						<div class="message">
+							<div class="message_mobile_main">
+								<div class="message_body_left  display_flex">
+									<img src="Assets/images/check-box.png" alt="Image not found" class="message_selector">
+									<img src="Assets/images/star.png" alt="Image not found" class="message_star">
+									<span class="message_dark  sender_name">Techversant Infotech</span>
+								</div>
+							<div class="  message_content">
+								<span class="message_dark">Daily Email Digest</span>
+								<span class="message_content_seperator">-</span>
+								<span class="message_light   ">Daily Digest Wednesday, 18 Sep Hello, Abhijith Naiju  On leave today (4)  view all hr</span>
+							</div>
+							</div>
+							<div class="message_body_right">
+								<div class="message_hover_display">
+									<img src="Assets/images/archive-box.png" alt="Image not found">
+									<img src="Assets/images/trash.png" alt="Image not found">
+									<img src="Assets/images/message_2.png" alt="Image not found">
+									<img src="Assets/images/clock_2.png" alt="Image not found">
+								</div>
+								<span class="message_light message_time">9:28 AM</span>
+								<button class="hidden_star">
+									<img src="Assets/images/star.png" alt="Image not found" >
+								</button>
+							</div>
+						</div>
+						
+						<div class="message">
+							<div class="message_mobile_main">
+								<div class="message_body_left  display_flex">
+									<img src="Assets/images/check-box.png" alt="Image not found" class="message_selector">
+									<img src="Assets/images/star.png" alt="Image not found" class="message_star">
+									<span class="message_dark  sender_name">Techversant Infotech</span>
+								</div>
+							<div class="  message_content">
+								<span class="message_dark">Daily Email Digest</span>
+								<span class="message_content_seperator">-</span>
+								<span class="message_light   ">Daily Digest Wednesday, 18 Sep Hello, Abhijith Naiju  On leave today (4)  view all hr</span>
+							</div>
+							</div>
+							<div class="message_body_right">
+								<div class="message_hover_display">
+									<img src="Assets/images/archive-box.png" alt="Image not found">
+									<img src="Assets/images/trash.png" alt="Image not found">
+									<img src="Assets/images/message_2.png" alt="Image not found">
+									<img src="Assets/images/clock_2.png" alt="Image not found">
+								</div>
+								<span class="message_light message_time">9:28 AM</span>
+								<button class="hidden_star">
+									<img src="Assets/images/star.png" alt="Image not found" >
+								</button>
+							</div>
+						</div>
+						
+						<div class="message">
+							<div class="message_mobile_main">
+								<div class="message_body_left  display_flex">
+									<img src="Assets/images/check-box.png" alt="Image not found" class="message_selector">
+									<img src="Assets/images/star.png" alt="Image not found" class="message_star">
+									<span class="message_dark  sender_name">Techversant Infotech</span>
+								</div>
+							<div class="  message_content">
+								<span class="message_dark">Daily Email Digest</span>
+								<span class="message_content_seperator">-</span>
+								<span class="message_light   ">Daily Digest Wednesday, 18 Sep Hello, Abhijith Naiju  On leave today (4)  view all hr</span>
+							</div>
+							</div>
+							<div class="message_body_right">
+								<div class="message_hover_display">
+									<img src="Assets/images/archive-box.png" alt="Image not found">
+									<img src="Assets/images/trash.png" alt="Image not found">
+									<img src="Assets/images/message_2.png" alt="Image not found">
+									<img src="Assets/images/clock_2.png" alt="Image not found">
+								</div>
+								<span class="message_light message_time">9:28 AM</span>
+								<button class="hidden_star">
+									<img src="Assets/images/star.png" alt="Image not found" >
+								</button>
+							</div>
+						</div>
+						
+						<div class="message">
+							<div class="message_mobile_main">
+								<div class="message_body_left  display_flex">
+									<img src="Assets/images/check-box.png" alt="Image not found" class="message_selector">
+									<img src="Assets/images/star.png" alt="Image not found" class="message_star">
+									<span class="message_dark  sender_name">Techversant Infotech</span>
+								</div>
+							<div class="  message_content">
+								<span class="message_dark">Daily Email Digest</span>
+								<span class="message_content_seperator">-</span>
+								<span class="message_light   ">Daily Digest Wednesday, 18 Sep Hello, Abhijith Naiju  On leave today (4)  view all hr</span>
+							</div>
+							</div>
+							<div class="message_body_right">
+								<div class="message_hover_display">
+									<img src="Assets/images/archive-box.png" alt="Image not found">
+									<img src="Assets/images/trash.png" alt="Image not found">
+									<img src="Assets/images/message_2.png" alt="Image not found">
+									<img src="Assets/images/clock_2.png" alt="Image not found">
+								</div>
+								<span class="message_light message_time">9:28 AM</span>
+								<button class="hidden_star">
+									<img src="Assets/images/star.png" alt="Image not found" >
+								</button>
+							</div>
+						</div>
+						
+						<div class="message">
+							<div class="message_mobile_main">
+								<div class="message_body_left  display_flex">
+									<img src="Assets/images/check-box.png" alt="Image not found" class="message_selector">
+									<img src="Assets/images/star.png" alt="Image not found" class="message_star">
+									<span class="message_dark  sender_name">Techversant Infotech</span>
+								</div>
+							<div class="  message_content">
+								<span class="message_dark">Daily Email Digest</span>
+								<span class="message_content_seperator">-</span>
+								<span class="message_light   ">Daily Digest Wednesday, 18 Sep Hello, Abhijith Naiju  On leave today (4)  view all hr</span>
+							</div>
+							</div>
+							<div class="message_body_right">
+								<div class="message_hover_display">
+									<img src="Assets/images/archive-box.png" alt="Image not found">
+									<img src="Assets/images/trash.png" alt="Image not found">
+									<img src="Assets/images/message_2.png" alt="Image not found">
+									<img src="Assets/images/clock_2.png" alt="Image not found">
+								</div>
+								<span class="message_light message_time">9:28 AM</span>
+								<button class="hidden_star">
+									<img src="Assets/images/star.png" alt="Image not found" >
+								</button>
+							</div>
+						</div>
+						
+						<div class="message">
+							<div class="message_mobile_main">
+								<div class="message_body_left  display_flex">
+									<img src="Assets/images/check-box.png" alt="Image not found" class="message_selector">
+									<img src="Assets/images/star.png" alt="Image not found" class="message_star">
+									<span class="message_dark  sender_name">Techversant Infotech</span>
+								</div>
+							<div class="  message_content">
+								<span class="message_dark">Daily Email Digest</span>
+								<span class="message_content_seperator">-</span>
+								<span class="message_light   ">Daily Digest Wednesday, 18 Sep Hello, Abhijith Naiju  On leave today (4)  view all hr</span>
+							</div>
+							</div>
+							<div class="message_body_right">
+								<div class="message_hover_display">
+									<img src="Assets/images/archive-box.png" alt="Image not found">
+									<img src="Assets/images/trash.png" alt="Image not found">
+									<img src="Assets/images/message_2.png" alt="Image not found">
+									<img src="Assets/images/clock_2.png" alt="Image not found">
+								</div>
+								<span class="message_light message_time">9:28 AM</span>
+								<button class="hidden_star">
+									<img src="Assets/images/star.png" alt="Image not found" >
+								</button>
+							</div>
+						</div>
+						
+						<div class="message">
+							<div class="message_mobile_main">
+								<div class="message_body_left  display_flex">
+									<img src="Assets/images/check-box.png" alt="Image not found" class="message_selector">
+									<img src="Assets/images/star.png" alt="Image not found" class="message_star">
+									<span class="message_dark  sender_name">Techversant Infotech</span>
+								</div>
+							<div class="  message_content">
+								<span class="message_dark">Daily Email Digest</span>
+								<span class="message_content_seperator">-</span>
+								<span class="message_light   ">Daily Digest Wednesday, 18 Sep Hello, Abhijith Naiju  On leave today (4)  view all hr</span>
+							</div>
+							</div>
+							<div class="message_body_right">
+								<div class="message_hover_display">
+									<img src="Assets/images/archive-box.png" alt="Image not found">
+									<img src="Assets/images/trash.png" alt="Image not found">
+									<img src="Assets/images/message_2.png" alt="Image not found">
+									<img src="Assets/images/clock_2.png" alt="Image not found">
+								</div>
+								<span class="message_light message_time">9:28 AM</span>
+								<button class="hidden_star">
+									<img src="Assets/images/star.png" alt="Image not found" >
+								</button>
+							</div>
+						</div>
+						
+						<div class="message">
+							<div class="message_mobile_main">
+								<div class="message_body_left  display_flex">
+									<img src="Assets/images/check-box.png" alt="Image not found" class="message_selector">
+									<img src="Assets/images/star.png" alt="Image not found" class="message_star">
+									<span class="message_dark  sender_name">Techversant Infotech</span>
+								</div>
+							<div class="  message_content">
+								<span class="message_dark">Daily Email Digest</span>
+								<span class="message_content_seperator">-</span>
+								<span class="message_light   ">Daily Digest Wednesday, 18 Sep Hello, Abhijith Naiju  On leave today (4)  view all hr</span>
+							</div>
+							</div>
+							<div class="message_body_right">
+								<div class="message_hover_display">
+									<img src="Assets/images/archive-box.png" alt="Image not found">
+									<img src="Assets/images/trash.png" alt="Image not found">
+									<img src="Assets/images/message_2.png" alt="Image not found">
+									<img src="Assets/images/clock_2.png" alt="Image not found">
+								</div>
+								<span class="message_light message_time">9:28 AM</span>
+								<button class="hidden_star">
+									<img src="Assets/images/star.png" alt="Image not found" >
+								</button>
+							</div>
+						</div>
+						
+						<div class="message">
+							<div class="message_mobile_main">
+								<div class="message_body_left  display_flex">
+									<img src="Assets/images/check-box.png" alt="Image not found" class="message_selector">
+									<img src="Assets/images/star.png" alt="Image not found" class="message_star">
+									<span class="message_dark  sender_name">Techversant Infotech</span>
+								</div>
+							<div class="  message_content">
+								<span class="message_dark">Daily Email Digest</span>
+								<span class="message_content_seperator">-</span>
+								<span class="message_light   ">Daily Digest Wednesday, 18 Sep Hello, Abhijith Naiju  On leave today (4)  view all hr</span>
+							</div>
+							</div>
+							<div class="message_body_right">
+								<div class="message_hover_display">
+									<img src="Assets/images/archive-box.png" alt="Image not found">
+									<img src="Assets/images/trash.png" alt="Image not found">
+									<img src="Assets/images/message_2.png" alt="Image not found">
+									<img src="Assets/images/clock_2.png" alt="Image not found">
+								</div>
+								<span class="message_light message_time">9:28 AM</span>
+								<button class="hidden_star">
+									<img src="Assets/images/star.png" alt="Image not found" >
+								</button>
+							</div>
+						</div>
+						
+						<div class="message">
+							<div class="message_mobile_main">
+								<div class="message_body_left  display_flex">
+									<img src="Assets/images/check-box.png" alt="Image not found" class="message_selector">
+									<img src="Assets/images/star.png" alt="Image not found" class="message_star">
+									<span class="message_dark  sender_name">Techversant Infotech</span>
+								</div>
+							<div class="  message_content">
+								<span class="message_dark">Daily Email Digest</span>
+								<span class="message_content_seperator">-</span>
+								<span class="message_light   ">Daily Digest Wednesday, 18 Sep Hello, Abhijith Naiju  On leave today (4)  view all hr</span>
+							</div>
+							</div>
+							<div class="message_body_right">
+								<div class="message_hover_display">
+									<img src="Assets/images/archive-box.png" alt="Image not found">
+									<img src="Assets/images/trash.png" alt="Image not found">
+									<img src="Assets/images/message_2.png" alt="Image not found">
+									<img src="Assets/images/clock_2.png" alt="Image not found">
+								</div>
+								<span class="message_light message_time">9:28 AM</span>
+								<button class="hidden_star">
+									<img src="Assets/images/star.png" alt="Image not found" >
+								</button>
+							</div>
+						</div>
+						
+						<div class="message">
+							<div class="message_mobile_main">
+								<div class="message_body_left  display_flex">
+									<img src="Assets/images/check-box.png" alt="Image not found" class="message_selector">
+									<img src="Assets/images/star.png" alt="Image not found" class="message_star">
+									<span class="message_dark  sender_name">Techversant Infotech</span>
+								</div>
+							<div class="  message_content">
+								<span class="message_dark">Daily Email Digest</span>
+								<span class="message_content_seperator">-</span>
+								<span class="message_light   ">Daily Digest Wednesday, 18 Sep Hello, Abhijith Naiju  On leave today (4)  view all hr</span>
+							</div>
+							</div>
+							<div class="message_body_right">
+								<div class="message_hover_display">
+									<img src="Assets/images/archive-box.png" alt="Image not found">
+									<img src="Assets/images/trash.png" alt="Image not found">
+									<img src="Assets/images/message_2.png" alt="Image not found">
+									<img src="Assets/images/clock_2.png" alt="Image not found">
+								</div>
+								<span class="message_light message_time">9:28 AM</span>
+								<button class="hidden_star">
+									<img src="Assets/images/star.png" alt="Image not found" >
+								</button>
 							</div>
 						</div>
 						<div class="message_body_footer">
